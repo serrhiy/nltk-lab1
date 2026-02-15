@@ -52,5 +52,5 @@ class RSSDataSource:
 
         for entry in new_entries:
             self.previous_entries_time.append(entry["time"])
-        
+
         self.entries.clear()
